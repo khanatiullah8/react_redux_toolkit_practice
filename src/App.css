@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.App { text-align: center; }
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: #764ABC;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  text-transform: capitalize;
+}
+
+h2 {
+  padding: 5px;
+  margin-top: 50px;
+  background-color: #d1d9db;
+}
+
+li { list-style: none; }
+span { display: inline-block; }
+
+.user-lists > li {
+  display: flex;
+  justify-content: space-between;
+}
+
+li.error-msg {
+  display: block;
+  text-align: center;
+}
